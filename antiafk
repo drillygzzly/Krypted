@@ -1,0 +1,7 @@
+locplayer.Idled:connect(function()
+		cmdvu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		wait(1)
+		cmdvu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+    print("worked")
+	end)
+end
