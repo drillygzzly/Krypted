@@ -1,9 +1,1 @@
-local locplayer = game:GetService("Players").LocalPlayer
-local vuser = game:GetService("VirtualUser")
-
-       locplayer.Idled:connect(function()
-            vuser:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-            wait(1)
-            vuser:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-        print("worked")
-        end)
+print("1")
