@@ -1,0 +1,10 @@
+local CameraSel = "Invisicam"
+local CameraMax = "696969"
+local CameraMin = "0"
+
+game.Players.LocalPlayer.DevCameraOcclusionMode = CameraSel
+print("Camera Set To :", CameraSel)
+game.Players.LocalPlayer.CameraMaxZoomDistance = CameraMax
+print("Max Distance Set To :", CameraMax)
+game.Players.LocalPlayer.CameraMinZoomDistance = CameraMin
+print("Min Distance Set To :", CameraMin)
